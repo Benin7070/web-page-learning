@@ -1,0 +1,27 @@
+body{
+    display:flex;
+    flex-direction:row;
+}
+.container{
+    display:flex;
+    width:60vw;
+}
+.panel{
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height:80vh;
+    border-radius:30px;
+    color:white;
+    flex:0.2;
+    margin:10px;
+    position:relative;
+    -webkit-transition: all 700ms ease-in; 
+}
+.active{
+    flex:1.5;
+}
+.panel .active h3 {
+    opacity: 1;
+    transition:opacity 0.3s ease-in 0.4s;
+}
