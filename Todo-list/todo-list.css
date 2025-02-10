@@ -1,0 +1,37 @@
+body{
+    font-family: Arial ;
+}
+.title{
+    font-weight: bold;
+}
+.todoList,.elements{
+    margin-top:20px;
+    display:grid;
+    grid-template-columns: 247px 150px 100px;
+    align-items: center;
+}
+
+.event,.eventDate,.submit,.deleteButton{
+    padding:10px 0px;
+    font-size: medium;
+    margin-right:10px;
+}
+.submit{
+    background-color: rgb(35, 202, 35);
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.deleteButton{
+    background-color: rgb(255, 80, 80);
+    border:none;
+    font-weight: bold;
+    border-radius: 30px;
+    color:white;
+}
+.event,.eventDate{
+    padding-left:3px;
+}
+.todoList{
+    row-gap: 10px;
+}
